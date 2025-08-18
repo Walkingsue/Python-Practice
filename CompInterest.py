@@ -1,0 +1,5 @@
+investment = float(input("Enter the initial investment amount: "))
+interest_rate = float(input("Enter the annual interest rate (as a percentage): "))
+years = int(input("Enter the number of years: "))
+compound_interest = investment * ((1 + (interest_rate / 100)) ** years)
+print(f"The total amount after {years} years is: {compound_interest:.1f}")
