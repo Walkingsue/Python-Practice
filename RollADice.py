@@ -1,17 +1,5 @@
 import random
 
-"┌─────────┐"
-"│         │"
-"│    ●    │"
-"│         │"
-"└─────────┘"
-
-"┌─────────┐"
-"│         │"
-"│  ●   ●  │"
-"│         │"
-"└─────────┘"
-
 dice_art = {
     1: [
         "┌─────────┐",
@@ -70,5 +58,5 @@ for i in range(num_of_dice):
 
 for die in dice:
     total += die
-    
+
 print(total)
