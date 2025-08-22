@@ -1,6 +1,5 @@
 card_numb = input("Enter your credit card number: ")
-#card_numb = (numb for numb in card_numb if numb != '-')
-#print("".join(card_numb))
+
 total = 0
 sum_even_numb = 0
 sum_odd_numb = 0
