@@ -1,4 +1,3 @@
-import unittest
 
 def reverse_string(s):
   return s[::-1]
@@ -8,3 +7,4 @@ def capitalize_string(s):
 
 def is_capitalized(s):
   return s[0].isupper()
+
