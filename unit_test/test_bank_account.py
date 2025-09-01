@@ -18,7 +18,7 @@ class TestBankAccount(unittest.TestCase):
 
     def test_deposit_zero_amount(self):
         with self.assertRaises(ValueError):
-            self.account.deposit(1)
+            self.account.deposit(0)
 
 if __name__ == "__main__":
     unittest.main()
