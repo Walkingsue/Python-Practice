@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
 from PyQt5.QtGui import QIcon
 
 class mainWindow(QMainWindow):
@@ -8,6 +8,8 @@ class mainWindow(QMainWindow):
         self.setWindowTitle("My first GUI")
         self.setGeometry(700, 300, 500, 500)
         self.setWindowIcon(QIcon("Pikachu.png"))
+
+        label = QLabel()
 
 def main():
     app = QApplication(sys.argv)
